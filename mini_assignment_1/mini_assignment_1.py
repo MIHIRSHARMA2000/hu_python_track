@@ -30,8 +30,8 @@ class PairsPossible(StringClass):
 
 
 def SearchCommonElements(StringClass):
-    def commonele(self):
-        d = dict(Counter(list(self.string)))
+    def commonelement(self):
+        d = dict(Counter(list(self.str)))
         ans = []
         for j in d:
             if d[j] >= 2:
@@ -45,4 +45,4 @@ print(Obj.ConvertStringToCharacters())
 Obj1 = PairsPossible('12314532')
 print(Obj1.AllPossiblePairs())
 Obj2=SearchCommonElements()
-print()
+print(Obj2.commonelements())
